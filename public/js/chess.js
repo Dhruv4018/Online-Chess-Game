@@ -12,8 +12,7 @@ function showWelcomeAndPrompt() {
     overlay.className = "fixed inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-white z-50 text-center space-y-4";
     overlay.innerHTML = `
                 <h1 class="text-3xl font-bold">Welcome to Chess Game</h1>
-                <div id="countdown" class="text-5xl font-bold">3</div>
-            `;
+                <div id="countdown" class="text-5xl font-bold">3</div> `;
     document.body.appendChild(overlay);
 
     let count = 3;
